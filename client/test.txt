@@ -1,0 +1,50 @@
+0000000000111111111122222222223333333333444444444455555555556666666666777777777788888888889999999999
+serveur
+//inscription ok
+WELCO+++
+GOBYE+++
+
+//connection 
+HELLO+++
+GOBYE+++
+
+//demande d'ami ok
+FRIE>+++
+FRIE<+++
+
+//envoi message ok
+MESS>+++
+MESS<+++
+
+//floo ok
+FLOO>+++
+
+//list ok
+RLIST 003+++
+LINUM numero01+++
+LINUM numero02+++
+LINUM numero03+++
+
+//consult
+SSEM> numero01 0002+++
+MUNEM 0000 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa+++
+MUNEM 0001 le vrai message...+++
+
+//ok
+OOLF> numero02 le message floo+++
+
+//ok
+EIRF> numero01+++
+ACKRF+++
+
+//ok
+FRIEN numero27+++
+NOFRI numero27+++
+
+//deconnection ok
+GOBYE+++
+
+//pub
+
+LBUP> 225.10.12.4#### 7777 ma publicité+++
+

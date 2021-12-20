@@ -1,0 +1,15 @@
+répertoire des fichiers du client
+
+Compilation :
+>make
+
+Execution :
+>./run numPort
+(ex : ./run 3333)
+
+L'addresse et le port du serveur est codé en dur sur le client,
+car on suppose que le client n'as pas à doit imperativement connaitre
+l'ip et le port du serveur.
+
+Modification : fichier client.c, ligne 6 et 7
+

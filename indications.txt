@@ -1,0 +1,8 @@
+Groupe :
+Cosson Raphaël
+Bah Thierno
+Checkroun Djamal
+
+
+Ce dépot réuni les codes sources des trois applications (client, serveur 
+et promoteur) nécéssaires à la réalisation du projet de Réseaux

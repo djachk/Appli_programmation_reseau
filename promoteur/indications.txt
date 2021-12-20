@@ -1,0 +1,8 @@
+répertoire des fichiers du promoteur
+
+liste des arguments :
+//argument 1 : adresse serveur
+//argument 2 : port tcp serveur
+//argument 3 : adresse multidifusion
+//argument 4 : port multidifusion
+

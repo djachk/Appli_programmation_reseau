@@ -1,0 +1,30 @@
+Nouvelle entree le 25 mai (voir plus bas)
+
+Le 8 avril:
+Le serveur est a peu pres complet pour la partie clients.
+A UNE EXCEPTION PRES: le mot de passe est un entier code sur 2 caracteres (chaine de 00 a 99).
+De meme pour le nombre de flux dans le message UDP qui est pour l'instant la chaine XX.
+Il faut donc adapter le module Client en consequence.
+
+Il reste a implementer le decodage/codage  Little Endian mais j'ai un bug que je ne comprends pas.
+Donc je propose qu'on bricole comme ça pour l'instant. Ca nous permet de tester tout le protocole.
+C'est bien sur une version 1.0. Donc problemes a prévoir forcément...
+
+Utiliser le makefile pour compiler.
+Puis lancer le serveur en faisant:
+$ java Serveur 8000 9000
+
+les deux arguments sont le n° de port TCP pour les clients, le n° de port TCP pour les promoteurs.
+Si pas d'arguments donnes, valeurs par defaut 8000 et 9000
+
+Le serveur est raisonnablement verbeux.
+
+
+Le 9 avril:
+Bug Little endian corrige, pour le mot de passe et les envois UDP.
+Revenir donc au protocole nominal.
+
+
+Le 25 mai:
+Serveur normalement complet (clients et promoteurs).
+Correction de quelques bugs
